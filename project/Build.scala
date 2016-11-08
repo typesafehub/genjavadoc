@@ -107,6 +107,7 @@ object B extends Build {
     parts match {
       case "2" :: "10" :: _ => "scala-2.10"
       case "2" :: "11" :: _ => "scala-2.11"
+      case "2" :: "12" :: "0" :: _ => "scala-2.11"
       case "2" :: "12" :: _ => "scala-2.12"
       case _ => "unknow-scala-version"
     }
